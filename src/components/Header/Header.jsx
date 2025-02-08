@@ -12,7 +12,7 @@ const Header=()=>{
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="searchItem">
-    <input type="text" className="ms-auto"  placeholder="Search by title or tag"   />
+    <input type="text" className='ms-auto form-control w-auto'   placeholder="Search by title or tag"   />
     </div>
            
             </nav>
