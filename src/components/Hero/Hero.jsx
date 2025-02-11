@@ -12,8 +12,6 @@ const Hero=({title})=>{
         queryKey: ["events",type,title],
         queryFn:fetchEvent,
       });
-      
-    console.log("after fetching data is",data);
     return(
         <>
         <div className="container">
