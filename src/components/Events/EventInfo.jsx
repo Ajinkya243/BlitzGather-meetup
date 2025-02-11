@@ -8,7 +8,7 @@ import fetchDetails from "./fetchDetails";
 import { Link } from "react-router-dom";
 import homeSvg from '../../assets/img/home.svg';
 
-const EventDetails=()=>{
+const EventInfo=()=>{
     const {id}=useParams();
     const {data,isLoading,error}=useQuery({
         queryKey:['event',id],
@@ -109,4 +109,5 @@ const EventDetails=()=>{
         </>
     )
 }
-export default EventDetails;
+
+export default EventInfo;
