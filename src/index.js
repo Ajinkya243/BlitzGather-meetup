@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
-import EventDetails from './components/Events/EventDetails';
+import EventInfo from './components/Events/EventInfo';
 import {QueryClient,QueryClientProvider} from '@tanstack/react-query';
 
 const queryClient=new QueryClient({
@@ -23,7 +23,7 @@ root.render(
     <QueryClientProvider client={queryClient}>
     <Routes>
       <Route path="/" element={<App/>}/>
-      <Route path="/events/details/:id" element={<EventDetails/>} />
+      <Route path="/events/details/:id" element={<EventInfo/>} />
     </Routes>
     </QueryClientProvider>
     </BrowserRouter>

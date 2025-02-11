@@ -1,0 +1,35 @@
+.tag{
+    display:flex;
+    gap:15px;
+}
+.para{
+    background-color: rgb(233, 168, 85);
+    padding:7px;
+    color: white;
+    border-radius: 7px;
+}
+
+.date-time-container {
+    display: flex;
+    align-items: start; 
+    gap: 8px; 
+    padding: 10px;
+    border-radius: 8px; 
+  }
+  .address-container {
+    display: flex;
+    align-items: start; 
+    gap: 8px; 
+    padding: 10px;
+    border-radius: 8px; 
+  }
+
+  .img{
+    width: 80%;
+    max-width: 150px;
+    border-radius: 100%;
+  }
+  .link{
+    text-decoration: none;
+  }
+
